@@ -71,7 +71,6 @@ git clone https://github.com/dexdevlab/cloudflare-worker-bluesky-handler.git
 ```toml
 # Change the worker name as you like
 name = "worker-name"
-...
 
 # Change the domain according your own domain. Keep the wildcards in the pattern
 routes = [{pattern = "*.domain.com/*", zone_name = "domain.com"}]
@@ -79,8 +78,7 @@ routes = [{pattern = "*.domain.com/*", zone_name = "domain.com"}]
 
 2 - Rename [dids.ts.example](https://github.com/DexDevLab/cloudflare-worker-bluesky-handler/blob/main/src/utils/dids.ts.example) to `dids.ts` and customize its contents:
 
-```json
-...
+```javascript
 return {
       // Default domain address for handler
       domain: "company.com",
@@ -135,7 +133,7 @@ Now you can use your custom handle via Bluesky using the section "No DNS Panel",
 
 ## Contact
 
-If you like this project, give a <a href="https://github.com/dexdevlab/cloudflare-worker-bluesky-handler" data-icon="octicon-star" aria-label="Star dexdevlab/cloudflare-worker-bluesky-handler on GitHub">⭐​</a>. <br>
+If you like this project, give a <a href="https://github.com/dexdevlab/cloudflare-worker-bluesky-handler" style="text-decoration: none;text-decoration-style: unset" data-icon="octicon-star" aria-label="Star dexdevlab/cloudflare-worker-bluesky-handler on GitHub">⭐​</a>. <br>
 For contacting me, send an email to: <a href="mailto:dex.houshi@hotmail.com">dex.houshi@hotmail.com</a>
 
 ## License
