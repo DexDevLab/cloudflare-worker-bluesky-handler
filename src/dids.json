@@ -1,0 +1,9 @@
+{
+  "config": {
+    "domain": "company.com",
+    "defaults": "https://site.company.com"
+  },
+  "handles": {
+    "alexa": "did:plc:r5focyhdgmgmgfkfbdxs5y24xeinl"
+  }
+}

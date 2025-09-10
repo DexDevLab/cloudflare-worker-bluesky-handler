@@ -1,11 +1,12 @@
 {
   "name": "cloudflare-worker-bluesky-handler",
   "description": "Router based on Hono for Cloudflare Worker implementation in order to change Bluesky's route for DID validations",
-  "version": "v1.0.1-250909",
+  "version": "v2.0.1-250910",
   "license": "MIT",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify --env production"
+    "kv": "wrangler kv namespace create 'MY_KV'",
+    "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
     "hono": "^4.9.6"

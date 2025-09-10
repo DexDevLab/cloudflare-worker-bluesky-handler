@@ -1,5 +1,21 @@
 <h1 align="center">Changelog</h1>
 
+### v2.0.1-250910
+
+- Removed 'wrangler.toml.example'
+- Updated README
+
+### v2.0.0-250910
+
+- Updated README
+- Changed 'dids.ts' function in a separated fetch function
+- Created fetch function to get DIDs depending if it is local or via File Host
+- Created separated 'dids.json' file for easier customizations
+- Changed handle parsing logic
+- Removed 'utils' folder
+- Removed production env variables and set variables as global
+- Created KV Bindings for retrieving env variables at Worker runtime
+
 ### v1.0.1-250909
 
 - Updated README
