@@ -1,7 +1,7 @@
 {
   "name": "cloudflare-worker-bluesky-handler",
   "description": "Router based on Hono for Cloudflare Worker implementation in order to change Bluesky's route for DID validations",
-  "version": "v2.0.1-250910",
+  "version": "v2.0.2",
   "license": "MIT",
   "scripts": {
     "dev": "wrangler dev",

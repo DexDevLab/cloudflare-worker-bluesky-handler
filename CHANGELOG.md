@@ -1,5 +1,11 @@
 <h1 align="center">Changelog</h1>
 
+### v2.0.2 - 2025-09-21
+
+- Removed version suffix with timestamp
+- Updated CHANGELOG
+- Removed wrangler.toml.example and dids.json.example from private repository
+
 ### v2.0.1-250910
 
 - Removed 'wrangler.toml.example'
